@@ -81,7 +81,7 @@ var MetadataStorage = (function () {
                     originalMetadata.type === inheritedMetadata.type;
             });
         });
-        return originalMetadatas.concat(uniqueInheritedMetadatas);
+        return originalMetadatas; //.concat(uniqueInheritedMetadatas);
     };
     /**
      * Gets all validator constraints for the given object.
