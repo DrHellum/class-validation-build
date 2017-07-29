@@ -837,3 +837,17 @@ See information about breaking changes and release notes [here](https://github.c
 
 [1]: https://github.com/chriso/validator.js
 [2]: https://github.com/pleerock/typedi
+
+```typescript 
+export class MySpecialClass implements OnInit {
+  constructor(private testService: TestService) {
+  }
+
+  ngOnInit(): void {
+    // do something     
+  }
+}
+```
+
+
+
